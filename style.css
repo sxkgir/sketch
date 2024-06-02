@@ -1,0 +1,58 @@
+@font-face {
+    font-family: "Silkscreen";
+    src: url(slkscr.ttf);
+}
+
+body{
+    margin: 0;
+    background-color: rgb(127, 127, 252);
+}
+main{
+    display:flex;
+    flex-direction: column;
+    align-items: center;    
+}
+h1{
+    margin: 30px;
+    color: yellow;
+}
+
+header{
+    font-size: 20px;
+    font-family: "Silkscreen";
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    margin: ;
+}
+
+button{
+    color: red;
+    background-color: rgb(189, 189, 189);
+    font-family: "Silkscreen";
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 30px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.grid-container{    
+    display: flex;
+    flex-wrap: wrap;
+    height: 720px;
+    width: 720px;
+    
+}
+
+
+.grid{
+    height: 45px;
+    width: 45px;
+    flex: 1 1 auto;
+    display: block;
+    border: 2px solid black;
+    box-sizing: border-box;
+    background-color: rgb(246, 120, 120);
+}
